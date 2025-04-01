@@ -59,7 +59,19 @@ button{
 .firstsection{
     background-color: #2e2f42;
 }
-.firstsection button:hover, :focus{
+.firstsection-h{
+    line-height: 1.07;
+    color: #fff;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.firstsection button:hover{
+    background-color: #404BBF;
+}
+.firstsection button:focus{
     background-color: #404BBF;
 }
 .order-service{
@@ -125,12 +137,4 @@ section .thirdsection h3{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.firstsection .firstsection-h{
-    line-height: 1.07;
-    color: #fff;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07143;
-    letter-spacing: 0.02em;
-    text-align: center;
-}
+
