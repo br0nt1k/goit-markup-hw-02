@@ -1,7 +1,7 @@
 .body{
     font-family: "Roboto", sans-serif;
     background-color: #fff;
-    color: #2e2f42;
+    color: #434455;
 }
 .logo-web{
     font-family: "Raleway", sans-serif;
@@ -59,16 +59,10 @@ button{
 .firstsection{
     background-color: #2e2f42;
 }
-.firstsection h1{
-    color: #fff;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07143;
-    letter-spacing: 0.02em;
-    text-align: center;
+.firstsection button:hover, :focus{
+    background-color: #404BBF;
 }
 .order-service{
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -76,14 +70,14 @@ button{
     letter-spacing: 0.04em;
     color: #fff;
 }
-.secondsection h3{
+.secondsection .secondsection-h{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.secondsection p {
+.secondsection .secondsection-p{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -95,7 +89,6 @@ button{
 }
 .thirdsection li{
     background: #fff;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 section .thirdsection h3{
     font-weight: 500;
@@ -131,4 +124,13 @@ section .thirdsection h3{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.firstsection .firstsection-h{
+    line-height: 1.07;
+    color: #fff;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
