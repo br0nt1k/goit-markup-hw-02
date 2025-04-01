@@ -68,9 +68,7 @@ button{
     letter-spacing: 0.02em;
     text-align: center;
 }
-.firstsection button:hover{
-    background-color: #404BBF;
-}
+.firstsection button:hover,
 .firstsection button:focus{
     background-color: #404BBF;
 }
