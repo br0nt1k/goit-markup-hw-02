@@ -26,6 +26,9 @@ a{
 ul{
     list-style: none;
 }
+button {
+    cursor: pointer;
+}
 .header-nav-ul-li-a{
     font-size: 16px;
     font-weight: 500;
@@ -51,9 +54,6 @@ ul{
 .address-ul-li-a:focus {
     color: #404bbf;
 }
-button{
-    cursor: pointer;
-}
 .firstsection{
     background-color: #2e2f42;
 }
@@ -62,7 +62,6 @@ button{
     color: #fff;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -70,7 +69,7 @@ button{
 .firstsection button:focus{
     background-color: #404BBF;
 }
-.order-service{
+.firstsection-button{
     background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -95,18 +94,25 @@ button{
 .thirdsection{
     background: #f4f4fd;
 }
-.thirdsection li{
+.thirdsection-ul-li{
     background: #fff;
 }
-section .thirdsection h3{
+.thirdsection-h2{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.thirdsection-ul-li-h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.thirdsection p{
-    font-weight: 400;
+.thirdsection-ul-li-p{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -136,7 +142,6 @@ section .thirdsection h3{
 .footer {
     background-color: #2e2f42;
 }
-
 .footer-p {
     font-weight: 400;
     font-size: 16px;
@@ -144,8 +149,7 @@ section .thirdsection h3{
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
-
-footer .logo-studio {
+.footer .logo-studio {
     color: #f4f4fd;
 }
 
