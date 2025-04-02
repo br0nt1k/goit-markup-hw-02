@@ -26,35 +26,30 @@ a{
 ul{
     list-style: none;
 }
-.nav-a:hover,
-.nav-a:focus{
-    color: #404bbf;
+.header-nav-ul-li-a{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em;  
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
-
-address a{
+.header-nav-ul-li-a:hover,
+.header-nav-ul-li-a:focus{
+    color: #404bbf;  
+}
+.header-address{
     font-style: normal;
+}
+.address-ul-li-a{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.footer{
-    background-color: #2e2f42;
-}
-.footer-p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-}
-footer .logo-studio{
-    color: #f4f4fd;
+.address-ul-li-a:hover,
+.address-ul-li-a:focus {
+    color: #404bbf;
 }
 button{
     cursor: pointer;
@@ -137,5 +132,20 @@ section .thirdsection h3{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+footer .logo-studio {
+    color: #f4f4fd;
 }
 
